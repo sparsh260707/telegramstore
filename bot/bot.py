@@ -45,14 +45,14 @@ crypto_col = db["crypto_invoices"]
 withdrawals_col = db["withdrawals"]
 
 #--------- Config : don't use @
-BOTUSER = "quickcodes_bot"
-SUPPORT = "vthnet"
-USAGE = "shebroked"
-OWNER = "Valriks"
-UPDATES= "shebroked"
+BOTUSER = "IdStoreProbot"
+SUPPORT = "AURA_NETWORKS"
+USAGE = "https://t.me/AURA_NETWORKS"
+OWNER = "oye_Sparsh_baby"
+UPDATES= "https://t.me/AURA_NETWORKS"
 CHANNEL="CHANNEL"
-SALESLOG = "shebroked"
-ADMINLOG = "-1003208353049"
+SALESLOG = "https://t.me/AURA_NETWORKS"
+ADMINLOG = "-1003957347260"
 # ================= Ban Middleware =================
 class BanCheckMiddleware(BaseMiddleware):
     async def __call__(
@@ -2037,7 +2037,7 @@ async def callback_howto(cq: CallbackQuery):
     kb = InlineKeyboardBuilder()
     kb.row(
         InlineKeyboardButton(text="▪️ Support", url=f"https://t.me/{OWNER}"),
-        InlineKeyboardButton(text="▪️ 𝙃𝙤𝙬 𝙩𝙤 𝙪𝙨𝙚", url=f"https://t.me/vthnet")
+        InlineKeyboardButton(text="▪️ 𝙃𝙤𝙬 𝙩𝙤 𝙪𝙨𝙚", url=f"https://t.me/AURA_NETWORKS")
     )
     kb.row(
         InlineKeyboardButton(text="▪️ Previous", callback_data="back_main")
