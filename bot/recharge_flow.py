@@ -18,9 +18,9 @@ from aiogram.filters import StateFilter, Command
 from oxapay import create_invoice, check_invoice
 
 # CONFIG
-USDT_TO_INR = 90
+USDT_TO_INR = 95
 MIN_USDT = 0.1
-UPI_ID = "itsakt5@ptyes"
+UPI_ID = "sparshbaniya@fam"
 QR_PATH = "QR.jpg"
 
 class RechargeState(StatesGroup):
