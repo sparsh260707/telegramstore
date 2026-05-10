@@ -46,12 +46,12 @@ withdrawals_col = db["withdrawals"]
 
 #--------- Config : don't use @
 BOTUSER = "IdStoreProbot"
-SUPPORT = "AURA_NETWORKS"
-USAGE = "https://t.me/AURA_NETWORKS"
+SUPPORT = "Idstore_official"
+USAGE = "https://t.me/Idstore_official"
 OWNER = "oye_Sparsh_baby"
-UPDATES= "https://t.me/AURA_NETWORKS"
+UPDATES= "https://t.me/Idstore_official"
 CHANNEL="CHANNEL"
-SALESLOG = "https://t.me/AURA_NETWORKS"
+SALESLOG = "https://t.me/Idstore_official"
 ADMINLOG = "-1003957347260"
 # ================= Ban Middleware =================
 class BanCheckMiddleware(BaseMiddleware):
