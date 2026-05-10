@@ -15,7 +15,7 @@ from aiogram.fsm.state import StatesGroup, State
 from aiogram.filters import StateFilter, Command
 
 # Import the fixed functions
-from oxapay import create_invoice, check_invoice
+from .oxapay import create_invoice, check_invoice
 
 # CONFIG
 USDT_TO_INR = 95
