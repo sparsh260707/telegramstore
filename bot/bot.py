@@ -47,6 +47,7 @@ withdrawals_col = db["withdrawals"]
 #--------- Config : don't use @
 BOTUSER = "IdStoreProbot"
 SUPPORT = "Idstore_official"
+LOGS = "Idstore_official" 
 USAGE = "https://t.me/Idstore_official"
 OWNER = "oye_Sparsh_baby"
 UPDATES= "https://t.me/Idstore_official"
