@@ -1,2 +1,4 @@
-from .bot import main  # or whatever your entry function is
-main()
+import asyncio
+from .bot import main
+
+asyncio.run(main())
